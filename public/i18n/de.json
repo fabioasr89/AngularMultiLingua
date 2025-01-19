@@ -1,0 +1,17 @@
+{
+    "HOME": {
+      "benvenuto": "Willkommen in meiner übersetzbaren Anwendung it/de"
+    },
+    "INSERT": {
+      "nome": "Name",
+      "cognome": "Nachname",
+      "comune": "Gemeinde",
+      "provincia": "Provinz",
+      "indirizzo": "Adresse",
+      "footer": {
+        "conferma": "Bestätigen",
+        "reset": "Zurücksetzen"
+      }
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "HOME":{
+        "benvenuto":"Benvenuto nella mia applicazione traducibile it/de"
+    },
+    "INSERT":{
+        "nome":"Nome",
+        "cognome":"Cognome",
+        "comune":"Comune",
+        "provincia":"Provincia",
+        "indirizzo":"Indirizzo",
+        "footer":{
+            "conferma":"conferma",
+            "reset":"reset"
+        }
+    }
+
+}

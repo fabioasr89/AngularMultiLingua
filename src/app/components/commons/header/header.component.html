@@ -1,0 +1,50 @@
+<div class="it-header-slim-wrapper">
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-12">
+          <div class="it-header-slim-wrapper-content">
+            <a class="d-none d-lg-block navbar-brand" href="#">INTERNATIONAL-FE-APP</a>
+            <div class="nav-mobile">
+              <nav aria-label="Navigazione accessoria">
+                <a class="it-opener d-lg-none" data-bs-toggle="collapse" href="#menu1a" role="button" aria-expanded="false" aria-controls="menu4">
+                  <span>INTERNATIONAL-FE-APP</span>
+                </a>
+                <div class="link-list-wrapper collapse" id="menu1a">
+                  <ul class="link-list">
+                    <li><a class="dropdown-item list-item" [routerLink]="['insert']">Insert</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="it-header-slim-right-zone">
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    
+                  <span>{{linguaCorrente}}</span>
+                  <svg class="icon d-none d-lg-block"><use href="../../../../../public/sprites.svg#it-expand"></use></svg>
+                </a>
+                <div class="dropdown-menu">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="link-list-wrapper">
+                        <ul class="link-list">
+                          <li *ngFor="let lang of linguaggi">
+                            <a class="dropdown-item list-item"  (click)="cambiaLinguaggio(lang.id)"><span>{{lang.label}}</span></a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="it-access-top-wrapper">
+                <a class="btn btn-primary btn-sm" href="#">Accedi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
